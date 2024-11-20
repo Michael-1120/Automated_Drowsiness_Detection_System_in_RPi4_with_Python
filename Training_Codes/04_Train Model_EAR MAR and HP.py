@@ -65,10 +65,10 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 
 # List of folder paths
 training_folder_paths = [
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\glasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\noglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\nightglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\night_noglasses"
+    r"D:\Processed Combined NTHU Training Dataset\glasses",
+    r"D:\Processed Combined NTHU Training Dataset\noglasses",
+    r"D:\Processed Combined NTHU Training Dataset\nightglasses",
+    r"D:\Processed Combined NTHU Training Dataset\night_noglasses"
 ]
 
 # Set random seed for reproducibility
@@ -129,10 +129,10 @@ patience = 5
 prediction_threshold = 0.5
 
 # Define Final Model Path
-final_model_path = r"D:\MJ Hard Drive Files\THESIS\Trained Model"
+final_model_path = r"D:\Trained Model"
 
 # Define the checkpoint directory
-checkpoint_dir = r"D:\MJ Hard Drive Files\THESIS\Checkpoints"
+checkpoint_dir = r"D:\Checkpoints"
 
 # Remove the directory if it exists and recreate it
 if os.path.exists(checkpoint_dir):

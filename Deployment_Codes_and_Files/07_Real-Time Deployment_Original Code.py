@@ -68,7 +68,7 @@ import sounddevice as sd
 selected_features = ['EAR', 'MAR', 'Yaw', 'Pitch', 'Roll']                              # For All Feature Test
 
 # Load the TFLite Sleepy Model
-MODEL_PATH = r"/home/rpi4/Thesis_Files/Quantized_Student_Model.tflite"
+MODEL_PATH = r"/home/Quantized_Student_Model.tflite"
 STUDENT_INTERPRETER = tf.lite.Interpreter(model_path=MODEL_PATH)
 STUDENT_INTERPRETER.allocate_tensors()
 STUDENT_INPUT_DETAILS = STUDENT_INTERPRETER.get_input_details()
@@ -162,13 +162,13 @@ GPIO.output(YELLOW_PIN, GPIO.LOW)
 GPIO.output(RED_PIN, GPIO.LOW)
 
 # Paths to MP3 files
-SYSTEM_INITIALIZING_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/system_initializing.mp3"
-NO_CAMERA_DETECTED_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/no_camera_detected.mp3"
-STARTING_DETECTION_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/starting_drowsiness_detection.mp3"
-FACE_DETECTED_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/face_detected.mp3"
-FACE_NOT_DETECTED_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/face_not_detected.mp3"
-DROWSINESS_DETECTED_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/drowsiness_detected.mp3"
-SHUTTING_DOWN_MP3 = r"/home/rpi4/Thesis_Files/Audio Files/shutting_down.mp3"
+SYSTEM_INITIALIZING_MP3 = r"/home/Audio Files/system_initializing.mp3"
+NO_CAMERA_DETECTED_MP3 = r"/home/Audio Files/no_camera_detected.mp3"
+STARTING_DETECTION_MP3 = r"/home/Audio Files/starting_drowsiness_detection.mp3"
+FACE_DETECTED_MP3 = r"/home/Audio Files/face_detected.mp3"
+FACE_NOT_DETECTED_MP3 = r"/home/Audio Files/face_not_detected.mp3"
+DROWSINESS_DETECTED_MP3 = r"/home/Audio Files/drowsiness_detected.mp3"
+SHUTTING_DOWN_MP3 = r"/home/Audio Files/shutting_down.mp3"
 
 ##############################################################################################
 #                                                                                            #

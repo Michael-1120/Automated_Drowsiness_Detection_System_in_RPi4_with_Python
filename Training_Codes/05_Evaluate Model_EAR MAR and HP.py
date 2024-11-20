@@ -47,15 +47,15 @@ from tensorflow.keras.models import load_model
 
 # Define lists of folder paths
 evaluation_folder_paths = [
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\glasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\noglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\nightglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\night_noglasses"
+    r"D:\Processed Combined NTHU Evaluation Dataset\glasses",
+    r"D:\Processed Combined NTHU Evaluation Dataset\noglasses",
+    r"D:\Processed Combined NTHU Evaluation Dataset\nightglasses",
+    r"D:\Processed Combined NTHU Evaluation Dataset\night_noglasses"
 ]
 
 # Define trained model path
-sleepy_model_path = r"D:\MJ Hard Drive Files\THESIS\Trained Model\Model_EAR_MAR_HP_Sleepy.keras"
-nonsleepy_model_path = r"D:\MJ Hard Drive Files\THESIS\Trained Model\Model_EAR_MAR_HP_NonSleepy.keras"
+sleepy_model_path = r"D:\Trained Model\Model_EAR_MAR_HP_Sleepy.keras"
+nonsleepy_model_path = r"D:\Trained Model\Model_EAR_MAR_HP_NonSleepy.keras"
 
 # Define random seed for reproducibility
 np.random.seed(42)

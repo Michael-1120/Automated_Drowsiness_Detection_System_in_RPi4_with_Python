@@ -55,18 +55,18 @@ from tensorflow.keras.layers import LSTM, Dropout, Dense
 
 # List of folder paths
 training_folder_paths = [
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\glasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\noglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\nightglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\night_noglasses"
+    r"D:\Processed Combined NTHU Training Dataset\glasses",
+    r"D:\Processed Combined NTHU Training Dataset\noglasses",
+    r"D:\Processed Combined NTHU Training Dataset\nightglasses",
+    r"D:\Processed Combined NTHU Training Dataset\night_noglasses"
 ]
 
 # Define trained model path
-sleepy_model_path = r"D:\MJ Hard Drive Files\THESIS\Trained Model\Model_EAR_MAR_HP_Sleepy.keras"
-nonsleepy_model_path = r"D:\MJ Hard Drive Files\THESIS\Trained Model\Model_EAR_MAR_HP_NonSleepy.keras"
+sleepy_model_path = r"D:\Trained Model\Model_EAR_MAR_HP_Sleepy.keras"
+nonsleepy_model_path = r"D:\Trained Model\Model_EAR_MAR_HP_NonSleepy.keras"
 
 # Define optimized model path
-optimized_model_path = r"D:\MJ Hard Drive Files\THESIS\Optimized Model"
+optimized_model_path = r"D:\Optimized Model"
 
 # Set full file path for each optimized model
 tflite_student_model_path = os.path.join(optimized_model_path, "Quantized_Student_Model.tflite")

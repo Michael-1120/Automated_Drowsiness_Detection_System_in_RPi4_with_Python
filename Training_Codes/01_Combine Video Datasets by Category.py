@@ -34,14 +34,14 @@ import shutil
 from tqdm import tqdm
 
 # Define the directories for training, evaluation, and testing datasets
-training_source_directory = r'D:\MJ Hard Drive Files\NTHU Driver Drowsiness Dataset\Training_Evaluation_Dataset\Training Dataset'
-training_destination_directory = r'D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset'
+training_source_directory = r'D:\NTHU Driver Drowsiness Dataset\Training_Evaluation_Dataset\Training Dataset'
+training_destination_directory = r'D:\Processed Combined NTHU Training Dataset'
 
-evaluation_source_directory = r'D:\MJ Hard Drive Files\NTHU Driver Drowsiness Dataset\Training_Evaluation_Dataset\Evaluation Dataset'
-evaluation_destination_directory = r'D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset'
+evaluation_source_directory = r'D:\NTHU Driver Drowsiness Dataset\Training_Evaluation_Dataset\Evaluation Dataset'
+evaluation_destination_directory = r'D:\Processed Combined NTHU Evaluation Dataset'
 
-testing_source_directory = r'D:\MJ Hard Drive Files\NTHU Driver Drowsiness Dataset\Testing_Dataset'
-testing_destination_directory = r'D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Test Dataset'
+testing_source_directory = r'D:\NTHU Driver Drowsiness Dataset\Testing_Dataset'
+testing_destination_directory = r'D:\Processed Combined NTHU Test Dataset'
 
 ##############################################################################################
 #                                                                                            #

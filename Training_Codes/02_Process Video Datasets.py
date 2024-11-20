@@ -46,24 +46,24 @@ from tqdm import tqdm
 
 # Lists of folder paths
 training_folder_paths = [
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\glasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\noglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\nightglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Training Dataset\night_noglasses"
+    r"D:\Processed Combined NTHU Training Dataset\glasses",
+    r"D:\Processed Combined NTHU Training Dataset\noglasses",
+    r"D:\Processed Combined NTHU Training Dataset\nightglasses",
+    r"D:\Processed Combined NTHU Training Dataset\night_noglasses"
 ]
 
 evaluation_folder_paths = [
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\glasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\noglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\nightglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Evaluation Dataset\night_noglasses"
+    r"D:\Processed Combined NTHU Evaluation Dataset\glasses",
+    r"D:\Processed Combined NTHU Evaluation Dataset\noglasses",
+    r"D:\Processed Combined NTHU Evaluation Dataset\nightglasses",
+    r"D:\Processed Combined NTHU Evaluation Dataset\night_noglasses"
 ]
 
 test_folder_paths = [
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Test Dataset\glasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Test Dataset\noglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Test Dataset\nightglasses",
-    r"D:\MJ Hard Drive Files\THESIS\Processed Combined NTHU Test Dataset\night_noglasses"
+    r"D:\Processed Combined NTHU Test Dataset\glasses",
+    r"D:\Processed Combined NTHU Test Dataset\noglasses",
+    r"D:\Processed Combined NTHU Test Dataset\nightglasses",
+    r"D:\Processed Combined NTHU Test Dataset\night_noglasses"
 ]
 
 # Combine all datasets into a single list for iteration
