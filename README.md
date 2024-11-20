@@ -159,7 +159,8 @@ This flowchart explains the real-time operation of the system, from capturing li
 ---
 
 ## Published Paper/Journal Article Link
-- [Add a link to your published paper or journal article here.](https://example.com)
+
+For a comprehensive overview of the methodology, detailed testing results, and in-depth discussions, please refer to our [published journal article.](https://example.com) (link to be updated).
 
 ## Notes
 
