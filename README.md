@@ -1,7 +1,5 @@
 #  Multi-Feature LSTM Facial Recognition for Real-Time Automated Drowsiness Observation of Automobile Drivers with Raspberry Pi 4
 
----
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
@@ -12,8 +10,6 @@
 - [Code Flow](#code-flow)
 - [Proponents](#proponents)
 - [Published Paper/Journal Article Link](#published-paperjournal-article-link)
-
----
 
 ## Introduction
 
@@ -32,68 +28,60 @@ The main goal of the study is to train, evaluate, and develop a drowsiness detec
 
 ### Conceptual Framework
 ![Conceptual Framework](/Images/Conceptual_Framework.png)  
-**Figure: Conceptual Framework**  
 This framework illustrates the relationship between input, process, and output components of the drowsiness detection system. The input captures behavioral data from the driver's face, the process involves detection and classification algorithms, and the output triggers audio and light alerts when drowsiness is detected.
 
 
 ### General Flow of the Study
-![General Flow of the Study](/Images/General_Flow_of_the_Study.png)  
-**Figure: General Flow of the Study**  
+![General Flow of the Study](/Images/General_Flow_of_the_Study.png)   
 This diagram outlines the overall workflow, starting from data collection and preprocessing to training, evaluation, and real-time deployment. Each step ensures that the system operates accurately in real-time conditions.
 
+----
 
 ### Training Process
 
 #### Dataset Overview
 ![NTHU-DDD](/Images/NTHU-DDD_Sample_Images.jpg)  
-**Figure: NTHU-DDD Dataset Sample Images**  
 Sample images from the NTHU-DDD dataset used for training the model. This dataset contains diverse scenarios such as variations in lighting, head pose, and facial behaviors, providing robust training data for the detection system.  
 For additional resources and ongoing updates of the dataset, contact the dataset provider, [National Tsing Hua University for the NTHU-DDD.](https://cv.cs.nthu.edu.tw/php/callforpaper/datasets/DDD/)
 
 #### Preprocessing
 ![Pre-Processing Flowchart](/Images/Pre-Processing_Flowchart.png)  
-**Figure: Preprocessing Flowchart**  
 The preprocessing flowchart details the steps for preparing the data. Key processes include feature computation (EAR, MAR, Yaw, Pitch, Roll), normalization, and handling class imbalance to ensure optimal model performance.
 
 #### Training and Validation
 ![Training and Validation Flowchart](/Images/Training_and_Validation_Flowchart.png)  
-**Figure: Training and Validation Flowchart**  
 This flowchart illustrates how the training and validation phases are conducted. It includes splitting the dataset, training LSTM models, and assessing the model’s accuracy on the validation set.
 
 #### Evaluation
-![Evaluation Flowchart](/Images/Evaluation_Flowchart.png)  
-**Figure: Evaluation Flowchart**  
+![Evaluation Flowchart](/Images/Evaluation_Flowchart.png)   
 The evaluation flowchart shows the steps taken to test the model on unseen data. This step ensures the robustness and generalizability of the system across different scenarios.
 
+----
 
 ### Prototype Assembly
 
 #### Schematic Design
-![Schematic Diagram Design of the Prototype](/Images/Prototype_Schematic_Diagram.png)  
-**Figure: Schematic Diagram Design of the Prototype**  
+![Schematic Diagram Design of the Prototype](/Images/Prototype_Schematic_Diagram.png)   
 The schematic diagram provides a detailed view of the hardware connections, including the Raspberry Pi, camera, and output components (audio and light signals).
 
 #### Assembled Prototype
 ![Assembled Prototype](/Images/Assembled_Prototype.jpg)  
-**Figure: Assembled Prototype**  
 This image displays the fully assembled prototype, integrating all hardware components within a compact and functional design.
 
+----
 
 ### Testing
 
 #### Front-View Setup
 ![Front-View of the Setup](/Images/Front-View_Setup.png)  
-**Figure: Front-View of the Setup**  
 The front-view setup highlights the camera placement and participant positioning, ensuring optimal feature capture for real-time testing.
 
 #### Side-View Setup
 ![Side-View of the Setup](/Images/Side-View_Setup.png)  
-**Figure: Side-View of the Setup**  
 The side-view image provides additional perspective on the setup, focusing on the ambient environment and hardware alignment.
 
 #### Real-Time Deployment
 ![Real-Time Deployment Flowchart](/Images/Real-Time_Deployment_Flowchart.png)  
-**Figure: Real-Time Deployment Flowchart**  
 This flowchart explains the real-time operation of the system, from capturing live frames to processing and triggering alerts for drowsiness detection.
 
 ---
@@ -171,8 +159,9 @@ This flowchart explains the real-time operation of the system, from capturing li
 ---
 
 ## Published Paper/Journal Article Link
-- [Add a link to your published paper or journal article here.](https:/link)
+- [Add a link to your published paper or journal article here.](https://example.com)
 
 ## Notes
-For detailed setup instructions, refer to the individual scripts and ensure all dependencies are properly installed. Modify file paths in the code as needed based on your system configuration.
+
+For detailed setup, refer to individual scripts. Ensure dependencies are installed, and adjust paths as needed for your system configuration.
 
